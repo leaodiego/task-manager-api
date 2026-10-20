@@ -7,7 +7,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("PermitirNextJs", policy =>
     {
         policy
-            .WithOrigins("http://localhost:3000")
+            .WithOrigins(
+                "http://localhost:3000",
+                "https://task-manager-nextjs-kappa.vercel.app"
+            )
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
