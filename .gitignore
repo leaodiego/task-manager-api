@@ -1,0 +1,44 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Logs
+*.log
+
+# .NET
+artifacts/
+
+# Test results
+TestResults/
+coverage/
+coverage.*
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local secrets/config
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
